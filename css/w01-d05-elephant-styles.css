@@ -1,0 +1,59 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: black;
+    margin: auto;
+}
+
+.background {
+    background-color: white;
+    width: 1200px;
+    height: 600px;
+    background-image: url(/img/bg.svg);
+    background-position: center;
+    background-size: 1200px;
+    position:relative;
+    margin:auto;
+    margin-top: 300px;
+    }
+
+.text {
+    color: white;
+    position:relative;
+    left: 100px;
+    top:100px;
+
+}
+
+.picture {
+    position: relative;
+    top: -100px;
+    left: 600px;
+    
+
+
+}
+
+.elephant{
+width: 400px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+
